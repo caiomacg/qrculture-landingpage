@@ -74,7 +74,7 @@
     .container_paragrafo_e_iphone {
         display: flex;
         flex-direction: column;
-        margin-right: 30%;
+        margin-right: 20%;
     }
 
     .parte_paragrafo p {
@@ -87,20 +87,25 @@
         margin-bottom: 0;
     }
 
+    .btn_cadastrar_2 {
+        margin-bottom: 5%;
+    }
+
     .parte_iphone {
         display: none;
     }
 
     .parte_iphone_mobile {
-        margin-top: 2rem;
-    }
-
-    .btn_cadastrar_2 {
-        margin-bottom: 5%;
+        display: block;
+        position: absolute;
+        margin-top: 30rem;
+        width: 100%;
+        right: 0;
     }
 
     .encontra_aqui {
         margin-left: 10%;
+        margin-top: 25rem;
     }
 
 
