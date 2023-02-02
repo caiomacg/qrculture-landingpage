@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.parte_iphone_mobile {
+    display: none;
+}
+
+.iphone_localizacao_mobile {
+    display: none;
+}
+
+.container_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 1.2rem;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+
+}
+
+.navbar {
+    display: none;
+}
+
+.hamburguer {
+    display: none;
+}
+
+.botoes_menu {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.botoes_menu a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#btn_cadastrar {
+    background-color: #FF7200;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+}
+
+.container_paragrafo_e_iphone {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.parte_paragrafo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.parte_iphone {
+    padding-top: 2rem;
+}
+
+.paragrafo_laranja {
+    color: #FF7200;
+}
+
+.paragrafo_pequeno {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn_cadastrar_2 {
+    text-decoration: none;
+    background-color: #FF7200;
+    border-radius: 30px;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.encontra_aqui {
+    font-size: 2.5rem;
+    margin-left: 15%;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.container_iphone_e_icones {
+    display: flex;
+}
+
+.iphone_localizacao {
+    margin-left: 25%;
+}
+
+.componentes_localizacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.componentes_localizacao_mobile {
+    display: none;
+}
+
+.container_carrossel_depoimentos {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container_carrossel_depoimentos p {
+    font-size: 2.5rem;
+    margin-left: 15%;
+    font-weight: 900;
+    margin-top: 2rem;
+}
+
+.carrossel {
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+
+}
+
+.container_carrossel_depoimentos_mobile {
+    display: none;
+}
+
+.container_conheca_mais {
+    background-color: #FF7200;
+    color: #fff;
+    font-size: 2.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.container_conheca_mais p {
+    padding: 2rem 0;
+    font-weight: 900;
+}
+
+
+.video_youtube {
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_desktop {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.footer_mobile {
+    display: none;
+}

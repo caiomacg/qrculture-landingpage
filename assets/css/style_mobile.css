@@ -1,0 +1,161 @@
+@media only screen and (max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container_nav {
+        display: flex;  
+    }
+
+    .container_nav img {
+        left: 0;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hamburguer {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburguer.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburguer.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburguer.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav_menu {
+        position: fixed;
+        left: -100%;
+        top: 8%;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s;
+        background-color: #fff;
+    
+    }
+
+    .nav_item {
+        margin: 1rem 0;
+    }
+
+    .nav_menu.active {
+        left: 0;
+    }
+
+    .bar {
+        display: block;
+        width: 20px;
+        height: 3px;
+        border-radius: 2px;
+        margin: 5px auto;
+        background-color: #000000;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .botoes_menu {
+        display: none;
+    }
+
+    .container_paragrafo_e_iphone {
+        display: flex;
+        flex-direction: column;
+        margin-right: 30%;
+    }
+
+    .parte_paragrafo p {
+        font-size: 1.8rem;
+        text-align: left;
+    }
+
+    .paragrafo_pequeno p{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .parte_iphone {
+        display: none;
+    }
+
+    .parte_iphone_mobile {
+        margin-top: 2rem;
+    }
+
+    .btn_cadastrar_2 {
+        margin-bottom: 5%;
+    }
+
+    .encontra_aqui {
+        margin-left: 10%;
+    }
+
+
+    .container_iphone_e_icones {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iphone_localizacao {
+        display: none;
+    }
+
+    .iphone_localizacao_mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .componentes_localizacao {
+        display: none;
+    }
+
+    .componentes_localizacao_mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+       
+    }
+
+    .container_carrossel_depoimentos {
+        display: none;
+    }
+
+    .container_carrossel_depoimentos_mobile h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .video_youtube {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer_desktop {
+        display: none;
+    }
+
+    .footer_mobile {
+        display: flex;
+    }
+    
+
+}
